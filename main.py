@@ -1,11 +1,35 @@
 import tkinter as tk, random as r, glob as g
 
 # tinker to create the gui
-root = tk.Tk()
-root.title("Tic Tac Toe")
+frame = tk.Tk()
+frame.title("Tic Tac Toe")
+frame.geometry("500x500")
 
+buttonTest1 = tk.Button(frame, text = "  ")
+buttonTest2 = tk.Button(frame, text = "  ")
+buttonTest3 = tk.Button(frame, text = "  ")
+buttonTest4 = tk.Button(frame, text = "  ")
+buttonTest5 = tk.Button(frame, text = "  ")
+buttonTest6 = tk.Button(frame, text = "  ")
+buttonTest7 = tk.Button(frame, text = "  ")
+buttonTest8 = tk.Button(frame, text = "  ")
+buttonTest9 = tk.Button(frame, text = "  ")
+buttonTest1.pack(side="left")
+buttonTest2.pack()
+buttonTest3.pack(side="right")
+buttonTest4.pack(side="left")
+buttonTest5.pack()
+buttonTest6.pack(side="right")
+buttonTest7.pack(side="left")
+buttonTest8.pack()
+buttonTest9.pack(side="right")
+
+print("testing testing")
 board = [["" for i in range(3)] for j in range(3)]
 buttons = []
+
+frame.mainloop()
+
 # random to implement computers random moves
 # glob to handle file patterns
 
