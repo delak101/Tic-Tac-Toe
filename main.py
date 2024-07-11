@@ -24,9 +24,7 @@ buttonTest7.pack(side="left")
 buttonTest8.pack()
 buttonTest9.pack(side="right")
 
-print("testing testing")
-board = [["" for i in range(3)] for j in range(3)]
-buttons = []
+#can you see me?
 
 frame.mainloop()
 
